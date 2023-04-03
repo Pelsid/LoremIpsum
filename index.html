@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LoremIpsum</title>
+	<link rel="icon" type="image/png" href="../dist/img/main_img/favicon.png" />
+	<link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body>
+
+	<header id="menuLinks" class="header">
+		<div id="burger-menu" onclick="showMenu()">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<div class="header__menu _container">
+			<a class="header__logo" href="#">LoremIpsum.<span class="_blue-text">Net</span></a>
+			<nav class="header__navigation navigation">
+				<ul class="navigation__list">
+					<li class="navigation__item"><a class="navigation__link _blue-text" href="#">Бизнес</a></li>
+					<li class="navigation__item"><a class="navigation__link" href="#">О нас</a></li>
+					<li class="navigation__item"><a class="navigation__link" href="#">Цены</a></li>
+					<li class="navigation__item"><a class="navigation__link" href="#">Оформить заказ</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<main class="page">
+
+		<section class="page__main-block main-block">
+			<div class="main-block__background-img">
+				<img class="main-block__img" src="./dist/img/main_img/business_background.png" alt="business_background">
+			</div>
+			<div class="main-block__content _container">
+				<div class="main-block__title-wrap">
+					<h1 class="main-block__title"><span class="_blue-text">Lorem ipsum</span> dolor sit <span
+							class="_white-space">amet
+							consectetur <span class="_blue-text">adipiscing</span></span></h1>
+				</div>
+				<div class="main-block__list-wrap">
+					<p class="main-block__paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+					<ul class="main-block__list">
+						<li class="main-block__list-item">Totam rem aperiam eaque ipsa</li>
+						<li class="main-block__list-item">Sit voluptatem accusantium doloremque laudantium</li>
+						<li class="main-block__list-item">Sed ut perspiciatis, unde omnis iste natus error</li>
+					</ul>
+				</div>
+				<div class="main-block__buttons">
+					<a href="#form-order" class="main-block__btn _blue-button">заказать</a>
+					<a href="#" class="main-block__btn">подробнее</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="page__order order">
+			<div class="order__background-wrap">
+				<img class="order__background-img" src="./dist/img/main_img/map.png" alt="background map">
+			</div>
+			<div id="order-list" class="order__content _container">
+				<div class="order__title-wrap">
+					<h2 class="order__title">Оформление <span class="_blue-text">Заказа</span></h2>
+					<p class="order__notice">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+				</div>
+				<div class="order__list-items">
+					<div class="order__list-buttons buttons">
+						<button onclick="sliderLeft()" class="buttons__shift left"><img src="./dist/img/ordering/left.svg"
+								alt="left"></button>
+						<button onclick="sliderRight(1)" class="buttons__shift right"><img
+								src="./dist/img/ordering/right.svg" alt="right"></button>
+					</div>
+					<ul id="slider" class="order__list">
+						<li class="order__item">
+							<div class="order__icon-wrap"><img src="./dist/img/ordering/order_icon_1.svg" alt="order icon">
+							</div>
+							<span class="order__description">Lorem ipsum dolor sit amet</span>
+						</li>
+						<li class="order__item">
+							<div class="order__icon-wrap"><img src="./dist/img/ordering/order_icon_2.svg" alt="order icon">
+							</div>
+							<span class="order__description">Сonsecteturadipiscing elit</span>
+						</li>
+						<li class="order__item">
+							<div class="order__icon-wrap"><img src="./dist/img/ordering/order_icon_3.svg" alt="order icon">
+							</div>
+							<span class="order__description">Sed do eiusmod tempor</span>
+						</li>
+						<li class="order__item">
+							<div class="order__icon-wrap"><img src="./dist/img/ordering/order_icon_4.svg" alt="order icon">
+							</div>
+							<span class="order__description">Esse cillum dolore eu fugiat</span>
+						</li>
+						<li class="order__item">
+							<div class="order__icon-wrap"><img src="./dist/img/ordering/order_icon_5.svg" alt="order icon">
+							</div>
+							<span class="order__description">Excepteur sint occaecat cupidatat non proident</span>
+						</li>
+					</ul>
+				</div>
+				<form class="order_form form" action="#">
+					<div id="wrap-select" class="form__select-wrap _one-third">
+						<div id="select-span" class="from__select-span"><span>Выберите тип системы</span></div>
+						<select id="select" name="SELECT" class="form__select" required="" size="10">
+							<option value="" hidden="" selected="selected">Выберите тип системы</option>
+							<option value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+							<option value="Nemo enim ipsam">Nemo enim ipsam</option>
+							<option value="Et harum quidem">Et harum quidem</option>
+							<option value="Temporibus autem">Temporibus autem</option>
+							<option value="Itaque earum rerum">Itaque earum rerum</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+							<option value="more">more option</option>
+						</select>
+					</div>
+					<div class="form__wrap-input _one-third">
+						<input class="form__email _input-form" type="email" name="MAIL" placeholder="Ваш e-mail">
+					</div>
+					<div class="form__wrap-input _one-third">
+						<input class="form__name _input-form" type="text" name="NAME" placeholder="Ваше имя">
+					</div>
+					<div class="form__wrap-text">
+						<p class="form__text">Sed ut perspiciatis, unde omnis iste natus</p>
+						<span id="value_range">75 %</span>
+						<input class="form__range" type="range" name="RANGE" min="1" max="20" id="range"
+							oninput="rangeValue()" value="17">
+					</div>
+					<div class="form__upload-file _one-third">
+						<label for="upload" class="form__file-label"><img class="form__file-icon"
+								src="./dist/img/ordering/upload_icon.svg" alt="upload_icon"> Прикрепить файл</label>
+						<input id="upload" class="form__file" type="file" name="FILE">
+					</div>
+					<div class="form__submit-wrap"><input class="form__submit _blue-button" type="submit"
+							value="ОТПРАВИТЬ"></div>
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="form-order" class="footer">
+		<div class="footer__content _container">
+			<div class="footer__wrap-copywriting">
+				<span class="footer__scopywriting-text">© 2018 «LoremIpsum.net» Все права защищены.</span>
+			</div>
+			<div class="footer__wrap-payments">
+				<ul class="footer__payments-list">
+					<li class="footer__item payment-item"><a class="footer__item-link" href="tel:8800"><img
+								class="footer__item-img" src="./dist/img/links/qiwi.svg" alt="qiwi"> Qiwi wallet</a></li>
+					<li class="footer__item payment-item"><a class="footer__item-link" href="tel:8800"><img
+								class="footer__item-img" src="./dist/img/links/yandex.svg" alt="yandex"> Yandex Money</a>
+					</li>
+					<li class="footer__item payment-item"><a class="footer__item-link" href="tel:8800"><img
+								class="footer__item-img" src="./dist/img/links/webmoney.svg" alt="webmoney"> Web Money</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__wrap-contacts">
+				<ul class="footer__contacts-list">
+					<li class="footer__item contact-item"><a class="footer__item-link"
+							href="mailto:info@ipsum228.com"><img class="footer__item-img" src="./dist/img/links/mail.svg"
+								alt="mail"> info@ipsum228.com</a></li>
+					<li class="footer__item contact-item"><a class="footer__item-link" href="https://vk.com/feed"
+							target="_blank"><img class="footer__item-img" src="./dist/img/links/vk.svg" alt="vk"> Мы
+							вконтакте</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
